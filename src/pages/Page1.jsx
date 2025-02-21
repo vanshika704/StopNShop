@@ -138,25 +138,25 @@ function Page1() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 shadow-black lg:w-3/4">
             {/* Image 1 */}
             <img
-              src="src/assets/242965ed29f6d45228ece0cb5628fb70.jpg"
+              src="../assets/242965ed29f6d45228ece0cb5628fb70.jpg"
               className="w-full h-80 object-cover rounded-t-full shadow-lg"
               alt="Fashion Item 1"
             />
             {/* Image 2 */}
             <img
-              src="src/assets/download.jpg"
+              src="../assets/download.jpg"
               className="w-full h-full object-contain rounded-lg shadow-lg"
               alt="Fashion Item 2"
             />
             {/* Image 3 */}
             <img
-              src="src/assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg"
+              src="../assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg"
               className="w-full h-full object-cover rounded-lg shadow-lg"
               alt="Fashion Item 3"
             />
             {/* Image 4 */}
             <img
-              src="src/assets/a285062c9b9f447499ea77c0997d2d37~tplv-tej9nj120t-origin.webp"
+              src="../assets/a285062c9b9f447499ea77c0997d2d37~tplv-tej9nj120t-origin.webp"
               className="w-full h-80 object-cover rounded-b-full shadow-lg"
               alt="Fashion Item 4"
             />
