@@ -109,7 +109,7 @@ function Page1() {
           bg-cover bg-center bg-neutral-200
           xs:bg-[url('src/assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg')]  
           sm:bg-[url('src/assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg')]  
-          md:bg-[url('src/assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg')]  
+          md:bg-none;  
           lg:bg-none" // For larger screens, background image removed
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
