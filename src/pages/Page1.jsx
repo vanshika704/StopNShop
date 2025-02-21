@@ -93,8 +93,10 @@ import Navbar from "../components/navbar";
 import { NewArrivals } from "../components/New";
 import Stats from "../components/stats";
 
-
-
+import image1 from "../assets/242965ed29f6d45228ece0cb5628fb70.jpg";
+import image2 from "../assets/download.jpg";
+import image3 from "../assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg";
+import image4 from "../assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg"
 function Page1() {
   return (
     <>
@@ -138,25 +140,25 @@ function Page1() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 shadow-black lg:w-3/4">
             {/* Image 1 */}
             <img
-              src="../assets/242965ed29f6d45228ece0cb5628fb70.jpg"
+              src={image1}
               className="w-full h-80 object-cover rounded-t-full shadow-lg"
               alt="Fashion Item 1"
             />
             {/* Image 2 */}
             <img
-              src="../assets/download.jpg"
+              src={image2}
               className="w-full h-full object-contain rounded-lg shadow-lg"
               alt="Fashion Item 2"
             />
             {/* Image 3 */}
             <img
-              src="../assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg"
+              src={image3}
               className="w-full h-full object-cover rounded-lg shadow-lg"
               alt="Fashion Item 3"
             />
             {/* Image 4 */}
             <img
-              src="../assets/a285062c9b9f447499ea77c0997d2d37~tplv-tej9nj120t-origin.webp"
+              src={image4}
               className="w-full h-80 object-cover rounded-b-full shadow-lg"
               alt="Fashion Item 4"
             />
