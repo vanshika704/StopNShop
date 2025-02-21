@@ -93,12 +93,7 @@ import Navbar from "../components/navbar";
 import { NewArrivals } from "../components/New";
 import Stats from "../components/stats";
 
-// Import images correctly
-import backgroundImage from '../assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg';
-import fashionItem1 from '../assets/242965ed29f6d45228ece0cb5628fb70.jpg';
-import fashionItem2 from '../assets/download.jpg';
-import fashionItem3 from '../assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg';
-import fashionItem4 from '../assets/a285062c9b9f447499ea77c0997d2d37~tplv-tej9nj120t-origin.webp';
+
 
 function Page1() {
   return (
@@ -107,11 +102,9 @@ function Page1() {
       <div
         className="relative h-screen w-screen flex flex-col lg:flex-row items-center justify-between px-4 lg:px-16 overflow-hidden transition-all duration-300
           bg-cover bg-center bg-neutral-200
-          xs:bg-[url('src/assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg')]  
-          sm:bg-[url('src/assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg')]  
-          md:bg-none;  
-          lg:bg-none" // For larger screens, background image removed
-        style={{ backgroundImage: `url(${backgroundImage})` }}
+          xs:bg-[url('../assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg')]   // Apply on small screens only
+          sm:bg-[url('../assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg')]   // Apply on small screens only
+          md:bg-none lg:bg-none" // For larger screens, background image removed
       >
         {/* Left Content (Text, Button, Stats) */}
         <div className="lg:w-1/2 flex flex-col items-center sm:pt-20 md:pt-20 lg:items-start text-center lg:text-left space-y-6 pt-12 lg:pt-20">
@@ -145,25 +138,25 @@ function Page1() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 shadow-black lg:w-3/4">
             {/* Image 1 */}
             <img
-              src={fashionItem1}
+              src="src/assets/242965ed29f6d45228ece0cb5628fb70.jpg"
               className="w-full h-80 object-cover rounded-t-full shadow-lg"
               alt="Fashion Item 1"
             />
             {/* Image 2 */}
             <img
-              src={fashionItem2}
+              src="src/assets/download.jpg"
               className="w-full h-full object-contain rounded-lg shadow-lg"
               alt="Fashion Item 2"
             />
             {/* Image 3 */}
             <img
-              src={fashionItem3}
+              src="src/assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg"
               className="w-full h-full object-cover rounded-lg shadow-lg"
               alt="Fashion Item 3"
             />
             {/* Image 4 */}
             <img
-              src={fashionItem4}
+              src="src/assets/a285062c9b9f447499ea77c0997d2d37~tplv-tej9nj120t-origin.webp"
               className="w-full h-80 object-cover rounded-b-full shadow-lg"
               alt="Fashion Item 4"
             />
