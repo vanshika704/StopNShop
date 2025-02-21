@@ -96,7 +96,7 @@ import Stats from "../components/stats";
 import image1 from "../assets/242965ed29f6d45228ece0cb5628fb70.jpg";
 import image2 from "../assets/download.jpg";
 import image3 from "../assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg";
-import image4 from "../assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg"
+import image4 from "../assets/download (1).jpg"
 function Page1() {
   return (
     <>
