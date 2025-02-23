@@ -103,7 +103,7 @@ import image2 from "../assets/download.jpg";
 import image3 from "../assets/be2f2c44c55bae4cea3b2c2557a908fe.jpg";
 import image4 from "../assets/download (1).jpg";
 
-// Import the background image directly
+
 import bgImage from "../assets/download.jpg";
 
 function Page1() {
